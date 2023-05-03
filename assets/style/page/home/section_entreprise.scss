@@ -1,14 +1,35 @@
-.bandeau {
-    color: $bandeau-color;
-    color: #ac7f7f;
+.entreprise {
+    background-color: $bandeau-color;
+    color: white;
     padding: 50px;
-}
+    position: relative;
+    margin-top:0%;
+  }
+  
+  .entreprise p {
+    margin: 10%;
+  }
+  
+  .entreprise .photo img {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 25%;
+  }
+  
+  .entreprise h2 {
+    margin-left: 25px;
+  }
 
-.fab {
+  .vert{
     color: $primary-color;
-}
+  }
 
-.photo {
-    width: 60%;
-
+  .titre {
+    margin-left: 10%;
+    margin-top: 5%;
 }
+  
