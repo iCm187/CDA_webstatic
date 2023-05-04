@@ -21018,8 +21018,10 @@ readers do not read off random characters that represent icons */
   content: "\f3f6";
 }
 
-.btn {
-  font-size: 2rem;
+.btn-custom {
+  background-color: #889A72;
+  color: #fff;
+  border-radius: 10px;
 }
 
 h1, .h1 {
@@ -21036,6 +21038,11 @@ h2, .h2 {
 h2 span, .h2 span {
   color: #889A72;
   text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #5B554F;
 }
 
 .foot {
@@ -21098,7 +21105,7 @@ h2 span, .h2 span {
   margin-top: 0%;
 }
 
-.entreprise .photo img {
+.photo img {
   width: 300px;
   height: 450px;
   position: absolute;
@@ -21106,6 +21113,11 @@ h2 span, .h2 span {
   top: 50%;
   transform: translateY(-50%);
   margin-right: 25%;
+}
+@media (max-width: 767.98px) {
+  .photo img {
+    position: relative;
+  }
 }
 
 .img-rea img {
