@@ -1,6 +1,22 @@
 #contact {
-    background-color: $bandeau-color;
-    color: white; 
-    padding: 50px; 
+    background-color: $secondary-color;
+    color: rgb(0, 0, 0); 
+    height: 300px;
 }
-  
+
+.contact-form {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 20px;
+    margin-top: -500px;
+    background-color: #fff;
+    border-color: $secondary-color;
+    textarea {
+        height: 50px;
+    }
+}
+
+.section1 {
+    margin-top: 300px;
+}

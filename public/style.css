@@ -21020,14 +21020,32 @@ readers do not read off random characters that represent icons */
 
 .btn {
   font-size: 2rem;
-  color: #6B8E23;
 }
 
 h1, .h1 {
   font-size: 5rem;
   font-style: italic;
-  color: #6B8E23;
+  color: #889A72;
   text-align: center;
+}
+
+h2, .h2 {
+  font-size: 3rem;
+  margin-top: 80px;
+}
+h2 span, .h2 span {
+  color: #889A72;
+  text-transform: uppercase;
+}
+
+.foot {
+  background-color: #5B554F;
+}
+
+.foot1 {
+  justify-content: center;
+  color: #5B554F;
+  margin-top: 30px;
 }
 
 .logo {
@@ -21040,22 +21058,44 @@ h1, .h1 {
   margin-left: 100px;
 }
 
+@font-face {
+  font-family: VinaSans;
+  src: url("../assets/fonts/vina-sans/VinaSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: BrunoAce;
+  src: url("../assets/fonts/BrunoAce/BrunoAce-Regular.ttf") format("truetype");
+}
 #contact {
-  background-color: #36271d;
-  color: white;
-  padding: 50px;
+  background-color: #5B554F;
+  color: rgb(0, 0, 0);
+  height: 300px;
+}
+
+.contact-form {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  padding: 20px;
+  margin-top: -500px;
+  background-color: #fff;
+  border-color: #5B554F;
+}
+.contact-form textarea {
+  height: 50px;
+}
+
+.section1 {
+  margin-top: 300px;
 }
 
 .entreprise {
-  background-color: #36271d;
+  background-color: #5B554F;
   color: white;
-  padding: 50px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   position: relative;
   margin-top: 0%;
-}
-
-.entreprise p {
-  margin: 10%;
 }
 
 .entreprise .photo img {
@@ -21068,21 +21108,31 @@ h1, .h1 {
   margin-right: 25%;
 }
 
-.entreprise h2, .entreprise .h2 {
-  margin-left: 25px;
+.img-rea img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.vert {
-  color: #6B8E23;
+.card-text {
+  text-align: center;
 }
 
-.titre {
-  margin-left: 10%;
-  margin-top: 5%;
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
 .section {
   margin-bottom: 70px;
+}
+
+.carousel-item img {
+  height: 400px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

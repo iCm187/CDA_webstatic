@@ -4,3 +4,12 @@ font-style: italic;
 color: $primary-color;
 text-align: center;
 }
+
+h2 {
+    font-size: 3rem;
+    margin-top: 80px;
+    span {
+        color: $primary-color;
+        text-transform: uppercase;
+    }
+}
