@@ -1,13 +1,10 @@
 .entreprise {
-    background-color: $bandeau-color;
+    background-color: $secondary-color;
     color: white;
-    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     position: relative;
     margin-top:0%;
-  }
-  
-  .entreprise p {
-    margin: 10%;
   }
   
   .entreprise .photo img {
@@ -19,17 +16,4 @@
     transform: translateY(-50%);
     margin-right: 25%;
   }
-  
-  .entreprise h2 {
-    margin-left: 25px;
-  }
-
-  .vert{
-    color: $primary-color;
-  }
-
-  .titre {
-    margin-left: 10%;
-    margin-top: 5%;
-}
   
